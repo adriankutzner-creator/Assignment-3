@@ -1,0 +1,32 @@
+/* --- GLOBAL COLORS --- */
+:root {
+    --primary-color: #008022;
+    --text-dark: #2c3e50;
+    --text-light: #7f8c8d;
+    --link-color: #3498db;
+}
+
+/* --- TYPOGRAPHY --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-dark);
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: var(--text-dark);
+    text-decoration: underline;
+}
