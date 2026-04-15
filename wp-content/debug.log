@@ -1,1 +1,124 @@
 [13-Apr-2026 01:28:16 UTC] PHP Warning:  Undefined array key "host" in /workspaces/Assignment-3/.wordpress/wp-includes/pluggable.php on line 1721
+[13-Apr-2026 03:15:38 UTC] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php:164
+Stack trace:
+#0 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(164): abs('0,,,,,')
+#1 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(112): ic_cart_variations_selectors->get_price_effect_dropdown_info('+', '0,,,,,', 0, 7)
+#2 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(62): ic_cart_variations_selectors->dropdown(7, 1)
+#3 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(39): ic_cart_variations_selectors->selector(7, 1, Array, 7)
+#4 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-front.php(85): ic_cart_variations_selectors->selectors()
+#5 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(339): ic_cart_variations_front::show_selectors()
+#6 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /workspaces/Assignment-3/.wordpress/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/full/product-page-inside.php(40): do_action('product_details', Object(WP_Post), Array)
+#9 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/templates-functions.php(82): include('/workspaces/Ass...')
+#10 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(343): content_product_adder_single_content(7)
+#11 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 /workspaces/Assignment-3/.wordpress/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#13 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/full/shortcode-product-page.php(32): do_action('product_page_in...', 7, Array, 'al_product-cat')
+#14 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/shortcode-catalog.php(822): include('/workspaces/Ass...')
+#15 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/shortcode-catalog.php(802): ic_shortcode_catalog->product_page()
+#16 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/shortcode-catalog.php(643): ic_shortcode_catalog->shortcode_product_adder()
+#17 /workspaces/Assignment-3/.wordpress/wp-includes/shortcodes.php(434): ic_shortcode_catalog->catalog_shortcode(Array, '', 'show_product_ca...')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 /workspaces/Assignment-3/.wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(show_p...', 'do_shortcode_ta...', '[show_product_c...')
+#20 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(341): do_shortcode('[show_product_c...')
+#21 /workspaces/Assignment-3/.wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[show_product_c...', Array)
+#22 /workspaces/Assignment-3/.wordpress/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:shortco...')
+#23 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-block.php(599): render_block_core_post_content(Array, '<!-- wp:shortco...', Object(WP_Block))
+#24 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-block.php(579): WP_Block->render()
+#25 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-block.php(579): WP_Block->render()
+#26 /workspaces/Assignment-3/.wordpress/wp-includes/blocks.php(2383): WP_Block->render()
+#27 /workspaces/Assignment-3/.wordpress/wp-includes/blocks.php(2466): render_block(Array)
+#28 /workspaces/Assignment-3/.wordpress/wp-includes/block-template.php(291): do_blocks('<!-- wp:templat...')
+#29 /workspaces/Assignment-3/.wordpress/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#30 /workspaces/Assignment-3/.wordpress/wp-includes/template-loader.php(132): include('/workspaces/Ass...')
+#31 /workspaces/Assignment-3/.wordpress/wp-blog-header.php(19): require_once('/workspaces/Ass...')
+#32 /workspaces/Assignment-3/.wordpress/index.php(17): require('/workspaces/Ass...')
+#33 {main}
+  thrown in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php on line 164
+[13-Apr-2026 03:16:10 UTC] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php:164
+Stack trace:
+#0 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(164): abs('0,,,,,')
+#1 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(112): ic_cart_variations_selectors->get_price_effect_dropdown_info('+', '0,,,,,', 0, 7)
+#2 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(62): ic_cart_variations_selectors->dropdown(7, 1)
+#3 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(39): ic_cart_variations_selectors->selector(7, 1, Array, 7)
+#4 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-front.php(85): ic_cart_variations_selectors->selectors()
+#5 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(339): ic_cart_variations_front::show_selectors()
+#6 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /workspaces/Assignment-3/.wordpress/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/full/product-page-inside.php(40): do_action('product_details', Object(WP_Post), Array)
+#9 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/templates-functions.php(82): include('/workspaces/Ass...')
+#10 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(343): content_product_adder_single_content(7)
+#11 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 /workspaces/Assignment-3/.wordpress/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#13 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/full/shortcode-product-page.php(32): do_action('product_page_in...', 7, Array, 'al_product-cat')
+#14 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/shortcode-catalog.php(822): include('/workspaces/Ass...')
+#15 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/shortcode-catalog.php(802): ic_shortcode_catalog->product_page()
+#16 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/shortcode-catalog.php(643): ic_shortcode_catalog->shortcode_product_adder()
+#17 /workspaces/Assignment-3/.wordpress/wp-includes/shortcodes.php(434): ic_shortcode_catalog->catalog_shortcode(Array, '', 'show_product_ca...')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 /workspaces/Assignment-3/.wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(show_p...', 'do_shortcode_ta...', '[show_product_c...')
+#20 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(341): do_shortcode('[show_product_c...')
+#21 /workspaces/Assignment-3/.wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[show_product_c...', Array)
+#22 /workspaces/Assignment-3/.wordpress/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:shortco...')
+#23 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-block.php(599): render_block_core_post_content(Array, '<!-- wp:shortco...', Object(WP_Block))
+#24 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-block.php(579): WP_Block->render()
+#25 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-block.php(579): WP_Block->render()
+#26 /workspaces/Assignment-3/.wordpress/wp-includes/blocks.php(2383): WP_Block->render()
+#27 /workspaces/Assignment-3/.wordpress/wp-includes/blocks.php(2466): render_block(Array)
+#28 /workspaces/Assignment-3/.wordpress/wp-includes/block-template.php(291): do_blocks('<!-- wp:templat...')
+#29 /workspaces/Assignment-3/.wordpress/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#30 /workspaces/Assignment-3/.wordpress/wp-includes/template-loader.php(132): include('/workspaces/Ass...')
+#31 /workspaces/Assignment-3/.wordpress/wp-blog-header.php(19): require_once('/workspaces/Ass...')
+#32 /workspaces/Assignment-3/.wordpress/index.php(17): require('/workspaces/Ass...')
+#33 {main}
+  thrown in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php on line 164
+[13-Apr-2026 03:17:56 UTC] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php:164
+Stack trace:
+#0 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(164): abs('0,,,,,')
+#1 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(112): ic_cart_variations_selectors->get_price_effect_dropdown_info('+', '0,,,,,', 0, 7)
+#2 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(62): ic_cart_variations_selectors->dropdown(7, 1)
+#3 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php(39): ic_cart_variations_selectors->selector(7, 1, Array, 7)
+#4 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-front.php(85): ic_cart_variations_selectors->selectors()
+#5 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(339): ic_cart_variations_front::show_selectors()
+#6 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /workspaces/Assignment-3/.wordpress/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/full/product-page-inside.php(40): do_action('product_details', Object(WP_Post), Array)
+#9 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/templates-functions.php(82): include('/workspaces/Ass...')
+#10 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(343): content_product_adder_single_content(7)
+#11 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#12 /workspaces/Assignment-3/.wordpress/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#13 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/full/shortcode-product-page.php(32): do_action('product_page_in...', 7, Array, 'al_product-cat')
+#14 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/shortcode-catalog.php(822): include('/workspaces/Ass...')
+#15 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/shortcode-catalog.php(802): ic_shortcode_catalog->product_page()
+#16 /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/shortcode-catalog.php(643): ic_shortcode_catalog->shortcode_product_adder()
+#17 /workspaces/Assignment-3/.wordpress/wp-includes/shortcodes.php(434): ic_shortcode_catalog->catalog_shortcode(Array, '', 'show_product_ca...')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 /workspaces/Assignment-3/.wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(show_p...', 'do_shortcode_ta...', '[show_product_c...')
+#20 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-hook.php(341): do_shortcode('[show_product_c...')
+#21 /workspaces/Assignment-3/.wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[show_product_c...', Array)
+#22 /workspaces/Assignment-3/.wordpress/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:shortco...')
+#23 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-block.php(599): render_block_core_post_content(Array, '<!-- wp:shortco...', Object(WP_Block))
+#24 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-block.php(579): WP_Block->render()
+#25 /workspaces/Assignment-3/.wordpress/wp-includes/class-wp-block.php(579): WP_Block->render()
+#26 /workspaces/Assignment-3/.wordpress/wp-includes/blocks.php(2383): WP_Block->render()
+#27 /workspaces/Assignment-3/.wordpress/wp-includes/blocks.php(2466): render_block(Array)
+#28 /workspaces/Assignment-3/.wordpress/wp-includes/block-template.php(291): do_blocks('<!-- wp:templat...')
+#29 /workspaces/Assignment-3/.wordpress/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#30 /workspaces/Assignment-3/.wordpress/wp-includes/template-loader.php(132): include('/workspaces/Ass...')
+#31 /workspaces/Assignment-3/.wordpress/wp-blog-header.php(19): require_once('/workspaces/Ass...')
+#32 /workspaces/Assignment-3/.wordpress/index.php(17): require('/workspaces/Ass...')
+#33 {main}
+  thrown in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php on line 164
+[13-Apr-2026 03:38:18 UTC] PHP Fatal error:  Out of memory (allocated 39845888 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 16
+[13-Apr-2026 03:38:18 UTC] PHP Fatal error:  Out of memory (allocated 39845888 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-3/.wordpress/wp-includes/sodium_compat/src/Core/Util.php on line 12
+[13-Apr-2026 03:38:18 UTC] PHP Fatal error:  Out of memory (allocated 35651584 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/cron.php on line 21
+[15-Apr-2026 03:10:34 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/Assignment-3/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[15-Apr-2026 03:21:20 UTC] PHP Fatal error:  Out of memory (allocated 39845888 bytes) (tried to allocate 28672 bytes) in /workspaces/Assignment-3/.wordpress/wp-admin/includes/class-wp-list-table.php on line 1530
+[15-Apr-2026 03:21:20 UTC] PHP Fatal error:  Out of memory (allocated 39845888 bytes) (tried to allocate 12288 bytes) in /workspaces/Assignment-3/.wordpress/wp-includes/functions.php on line 6910
+[15-Apr-2026 03:21:31 UTC] PHP Fatal error:  Out of memory (allocated 37748736 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/activation-config.php on line 125
+[15-Apr-2026 03:21:31 UTC] PHP Fatal error:  Out of memory (allocated 37748736 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-3/.wordpress/wp-includes/sodium_compat/src/Core/Util.php on line 12
+[15-Apr-2026 03:21:33 UTC] PHP Fatal error:  Out of memory (allocated 33554432 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/settings-functions.php on line 144
+[15-Apr-2026 03:21:33 UTC] PHP Fatal error:  Out of memory (allocated 33554432 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-3/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[15-Apr-2026 03:21:42 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/settings-functions.php on line 118
+[15-Apr-2026 03:21:42 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 2097152 bytes) in /workspaces/Assignment-3/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
