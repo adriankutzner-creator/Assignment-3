@@ -270,3 +270,6 @@ Stack trace:
   thrown in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php on line 164
 [15-Apr-2026 04:23:10 UTC] PHP Warning:  A non-numeric value encountered in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php on line 166
 [15-Apr-2026 04:23:23 UTC] PHP Warning:  A non-numeric value encountered in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/product-variations.php on line 79
+[15-Apr-2026 04:27:59 UTC] PHP Warning:  A non-numeric value encountered in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php on line 166
+[15-Apr-2026 16:24:14 UTC] PHP Warning:  A non-numeric value encountered in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php on line 166
+[15-Apr-2026 16:39:00 UTC] PHP Warning:  A non-numeric value encountered in /workspaces/Assignment-3/.wordpress/wp-content/plugins/ecommerce-product-catalog/modules/cart/includes/variations/variations-selectors.php on line 166
