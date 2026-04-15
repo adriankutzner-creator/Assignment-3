@@ -163,7 +163,7 @@ class ic_cart_variations_selectors {
 				$sign = $price_effect < 0 ? '-' : '+';
 				$mod  = $mod_type == '+' ? ' (' . $sign . ' ' . price_format( abs( $price_effect ) ) . ')' : ' (' . $sign . ' ' . abs( $price_effect ) . '%)';
 			} else {
-				$mod = $mod_type == '+' ? ' (' . price_format( $product_price + $price_effect ) . ')' : ' (' . price_format( $product_price * ( 1 + $price_effect / 100 ) ) . ')';
+				$mod = $mod_type == '+' ? ' (' . price_format( (float)$product_price + (float)$price_effect ) . ')' : ' (' . price_format( (float)$product_price * ( 1 + (float)$price_effect / 100 ) ) . ')';
 			}
 		} else if ( is_ic_any_variation_price_effect( $product_id ) && ! ic_has_multiple_product_variations( $product_id ) && $settings['info'] != 'price-effect' && $settings['info'] != 'no-info' && ic_is_variations_price_effect_active() ) {
 			$mod = ' (' . price_format( $product_price ) . ')';
