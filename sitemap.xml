@@ -27,6 +27,11 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/products/louisville-genuine-slugger/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/uncategorized/
         </loc>
     </url>
