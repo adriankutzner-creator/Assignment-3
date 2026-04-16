@@ -2,67 +2,67 @@
 <urlset>
     <url>
         <loc>
-            http://localhost:8000/hello-world/
+            http://localhost:8000/Assignment-3/hello-world/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/sample-page/
+            http://localhost:8000/Assignment-3/sample-page/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/
+            http://localhost:8000/Assignment-3/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/cart/
+            http://localhost:8000/Assignment-3/cart/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/products/sample-product-page/
+            http://localhost:8000/Assignment-3/products/sample-product-page/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/products/easton-hype-fire/
+            http://localhost:8000/Assignment-3/products/easton-hype-fire/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/products/louisville-genuine-slugger/
+            http://localhost:8000/Assignment-3/products/louisville-genuine-slugger/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/products/ap5-pro-model/
+            http://localhost:8000/Assignment-3/products/ap5-pro-model/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/products/axe-elite-one-gs4/
+            http://localhost:8000/Assignment-3/products/axe-elite-one-gs4/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/category/uncategorized/
+            http://localhost:8000/Assignment-3/category/uncategorized/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/products-category/wood/
+            http://localhost:8000/Assignment-3/products-category/wood/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/products-category/composite/
+            http://localhost:8000/Assignment-3/products-category/composite/
         </loc>
     </url>
     <url>
         <loc>
-            http://localhost:8000/author/adrian/
+            http://localhost:8000/Assignment-3/author/adrian/
         </loc>
     </url>
 </urlset>
