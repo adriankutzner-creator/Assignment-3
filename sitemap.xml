@@ -37,27 +37,7 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/Assignment-3/products/ap5-pro-model/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/Assignment-3/products/axe-elite-one-gs4/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/Assignment-3/category/uncategorized/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/Assignment-3/products-category/wood/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/Assignment-3/products-category/composite/
         </loc>
     </url>
     <url>
